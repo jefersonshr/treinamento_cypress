@@ -35,6 +35,44 @@ class Add_Produto {
             expect(preco).to.deep.equal(precoOrdenado)
         })
     }
+
+    clicarIconeCarrinho(){
+        cy.get(el.iconeCarrinho).click()
+    }
+
+    clicarBotaoCheckout(){
+        cy.get(el.botaoCheckout).click()
+    }
+
+    preencherCampoFisrtName(firstName){
+        cy.get(el.campoFirstName).type(firstName)
+    }
+
+    preencherCampoLastName(lastName){
+        cy.get(el.camposLastName).type(lastName)
+    }
+
+    preencherCampoPostalCode(postalCode){
+        cy.get(el.campoPostalCode).type(postalCode)
+    }
+
+    clicarBotaoContinue(){
+        cy.get(el.botaoContinue).click()
+    }
+
+    visualizarProdutoParaCompra(nomeProduto){
+        cy.get(el.nomeProduto).should('be.visible').and('contain', nomeProduto)
+    }
+
+    clicarBotaoFinish(){
+        cy.get(el.botaoFinish).click()
+    }
+
+    visualizarMensagemSucesso(mensagem){
+        cy.get(el.mensagem).should('be.visible').and('have.text', mensagem)
+        cy.get(el.imagem).should('be.visible')
+    }
+
 }
 
 export default new Add_Produto()
