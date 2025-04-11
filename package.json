@@ -15,7 +15,11 @@
     "ts-loader": "^9.5.2"
   },
   "cypress-cucumber-preprocessor": {
-    "step_definitions": "cypress/support/step_definitions/**/*.js"
+    "step_definitions": "cypress/support/step_definitions/**/*.js",
+    "html": {
+      "enabled": true,
+      "output": "cypress/reports/cucumber-html/cucumber-report.html"
+    }
   }
 
 

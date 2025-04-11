@@ -2,7 +2,7 @@ const el = require('./add_produto_elements').elements
 
 class Add_Produto {
     visualizarTitulo() {
-        cy.get(el.tituloHome).should('be.visible').and('contain', 'Products')
+        cy.get(el.tituloHome).should('be.visible').and('contain', 'Productss')
     }
 
     visualizarProduto(produto) {
