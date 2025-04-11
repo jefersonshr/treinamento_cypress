@@ -1,0 +1,26 @@
+# Ignora a pasta node_modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios de cache
+.cache/
+.cypress_cache/
+
+# Pastas temporárias do sistema
+.DS_Store
+Thumbs.db
+
+# Configurações locais de ambiente
+.env
+.env.local
+
+# Arquivos de relatórios do Cypress (caso use)
+cypress/screenshots/
+cypress/videos/
+
+# VSCode settings (caso use VS Code)
+.vscode/

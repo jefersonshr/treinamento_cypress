@@ -1,0 +1,22 @@
+{
+  "name": "treinamento_cypress",
+  "version": "1.0.0",
+  "description": "Treinamento cypress engesoftware",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "author": "Jeferson Rodrigues",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "cypress": "^14.2.0",
+    "ts-loader": "^9.5.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/step_definitions/**/*.js"
+  }
+
+
+}
