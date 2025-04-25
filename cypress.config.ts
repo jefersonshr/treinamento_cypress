@@ -7,7 +7,7 @@ export default defineConfig({
   e2e: {
     viewportHeight: 1080,
     viewportWidth: 1920,
-    baseUrl: 'https://www.saucedemo.com/v1/',
+    baseUrl: 'https://www.saucedemo.com',
     specPattern: "**/*.feature",
     async setupNodeEvents(
       on: Cypress.PluginEvents,

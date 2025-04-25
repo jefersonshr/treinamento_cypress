@@ -29,5 +29,5 @@ When('clico botão Finish', () => {
 })
 
 Then('visualizo a mensagem de sucsso', () => {
-    add_produto_index.visualizarMensagemSucesso('THANK YOU FOR YOUR ORDER')
+    add_produto_index.visualizarMensagemSucesso('Thank you for your order!')
 })
