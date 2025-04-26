@@ -123,13 +123,7 @@ Contribuições são bem-vindas! Fique à vontade para abrir *issues* ou enviar 
 
 ---
 
-## 📝 Licença
-
-Este projeto está licenciado sob a licença [MIT](LICENSE).
-
----
-
-Desenvolvido com 💙 por [@jefersonshr](https://github.com/jefersonshr)
+Desenvolvido por [@jefersonshr](https://github.com/jefersonshr)
 ---
 
 ## 🥒 Passos para Instalação do Cucumber no Cypress
